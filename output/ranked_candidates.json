@@ -1,0 +1,505 @@
+{
+  "job_title": "AI/ML Intern",
+  "generated_at": "2026-08-04T18:53:15.129227+00:00",
+  "llm_provider": "groq",
+  "llm_model": "openai/gpt-oss-20b",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "candidates": [
+    {
+      "rank": 1,
+      "file_name": "AI_resume_v5.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.885,
+      "score_breakdown": {
+        "semantic_similarity": 0.825,
+        "skill_overlap": 0.933,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Embeddings",
+        "Retrieval-Augmented Generation (RAG)",
+        "FastAPI",
+        "Git",
+        "Software Development Best Practices"
+      ],
+      "missing_skills": [
+        "Flask"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush has built end\u2011to\u2011end ML pipelines for conversational recommendation agents and LLM fine\u2011tuning, demonstrating hands\u2011on use of PyTorch, TensorFlow, Hugging Face Transformers, embeddings, and prompt\u2011engineering.  \nHe deployed these models in production\u2011grade FastAPI services, showing proficiency with Git and software\u2011development best practices required for the internship.  \nAlthough he has not yet worked with Flask, his depth in core CS concepts and advanced ML projects positions him to learn that framework quickly and contribute immediately."
+    },
+    {
+      "rank": 2,
+      "file_name": "GenAI_resume.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.847,
+      "score_breakdown": {
+        "semantic_similarity": 0.838,
+        "skill_overlap": 0.8,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.95
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Embeddings",
+        "FastAPI",
+        "Git",
+        "Software Development Best Practices"
+      ],
+      "missing_skills": [
+        "Deep Learning",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush\u2019s portfolio of LLM\u2011powered AI agents and generative\u2011model fine\u2011tuning shows hands\u2011on use of Hugging Face Transformers, PyTorch, TensorFlow, and prompt\u2011engineering\u2014exactly the skills the internship demands. He also built FastAPI\u2011based services and maintained code with Git, confirming proficiency in software\u2011development best practices and full\u2011stack development. Though he lacks explicit RAG and Flask experience, his demonstrated depth in Python, NLP, and ML, combined with recent causal\u2011inference projects, provides a solid foundation that justifies a high fit for the role."
+    },
+    {
+      "rank": 3,
+      "file_name": "AI_resume_v4.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.838,
+      "score_breakdown": {
+        "semantic_similarity": 0.836,
+        "skill_overlap": 0.8,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Embeddings",
+        "FastAPI",
+        "Git",
+        "Software Development Best Practices"
+      ],
+      "missing_skills": [
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush\u2019s portfolio shows hands\u2011on mastery of the core skill set: he has built end\u2011to\u2011end FastAPI pipelines that fine\u2011tune Hugging Face Transformers on LLM tasks, and he has implemented both PyTorch and TensorFlow models for NLP and computer\u2011vision problems, all under Git\u2011controlled versioning. His projects on conversational recommendation and forgery detection demonstrate applied machine\u2011learning techniques\u2014embedding\u2011based similarity, causal inference, and statistical validation\u2014matching the role\u2019s emphasis on ML/Deep\u2011Learning and software\u2011engineering best practices. While he lacks explicit experience with prompt engineering, RAG, and Flask, his solid grounding in the remaining required technologies and his proven ability to deliver production\u2011ready NLP solutions justify a high fit for an AI/ML intern."
+    },
+    {
+      "rank": 4,
+      "file_name": "Resume.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.816,
+      "score_breakdown": {
+        "semantic_similarity": 0.824,
+        "skill_overlap": 0.733,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.95
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Embeddings",
+        "FastAPI",
+        "Git",
+        "Software Development Best Practices"
+      ],
+      "missing_skills": [
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush demonstrates strong alignment with the core AI/ML stack\u2014he\u2019s built end\u2011to\u2011end pipelines in Python that incorporate PyTorch, TensorFlow, Hugging Face Transformers, and FastAPI, and his Git\u2011based workflow shows adherence to software development best practices. His hands\u2011on projects, such as a conversational recommendation agent and a diffusion\u2011based forgery detection system, illustrate applied knowledge in natural language processing, deep learning, and backend deployment\u2014directly satisfying the majority of required skills. The score is slightly below perfect because he lacks explicit experience with large\u2011language\u2011model fine\u2011tuning, prompt engineering, retrieval\u2011augmented generation, and Flask, which are niche but emerging competencies for the internship."
+    },
+    {
+      "rank": 5,
+      "file_name": "AI_resume_v3_no_hyperlinks.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.803,
+      "score_breakdown": {
+        "semantic_similarity": 0.81,
+        "skill_overlap": 0.733,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Embeddings",
+        "FastAPI",
+        "Git",
+        "Software Development Best Practices"
+      ],
+      "missing_skills": [
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush\u2019s portfolio shows full coverage of the required stack\u2014he\u2019s implemented NLP pipelines and deep\u2011learning models in PyTorch and TensorFlow, wrapped them with FastAPI, and used Git and best\u2011practice software patterns.  His projects explicitly include LLM fine\u2011tuning (Llama\u20113.7\u2011B) and embedding\u2011based recommendation agents, proving practical experience with the core technologies.  While he has not yet worked on RAG, prompt engineering, or Flask, his demonstrated expertise and quantitative results in research projects justify a high fit."
+    },
+    {
+      "rank": 6,
+      "file_name": "AI_resume_v3.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.797,
+      "score_breakdown": {
+        "semantic_similarity": 0.814,
+        "skill_overlap": 0.733,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.85
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Embeddings",
+        "FastAPI",
+        "Git",
+        "Software Development Best Practices"
+      ],
+      "missing_skills": [
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask"
+      ],
+      "years_experience": 0.0,
+      "rationale": "The candidate\u2019s portfolio shows hands\u2011on experience in both core and advanced ML areas\u2014Python, PyTorch, TensorFlow, Hugging Face Transformers, and embeddings\u2014directly matching the internship\u2019s technical requirements. Their projects, such as a conversational recommendation agent and an LLM fine\u2011tuning system, demonstrate proficiency with NLP, deep learning, and backend integration via FastAPI and Git, underscoring their readiness for a full\u2011stack AI role. While they lack direct experience with LLM prompt engineering and Retrieval\u2011Augmented Generation, their strong foundation in LLM fine\u2011tuning and a solid software\u2011engineering background suggest they can quickly acquire those missing skills, justifying a high fit rating."
+    },
+    {
+      "rank": 7,
+      "file_name": "AI_resume_v3_no_links_text_preserved.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.767,
+      "score_breakdown": {
+        "semantic_similarity": 0.72,
+        "skill_overlap": 0.733,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Embeddings",
+        "FastAPI",
+        "Git",
+        "Software Development Best Practices"
+      ],
+      "missing_skills": [
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush brings a solid match to all core requirements: he has built conversational recommendation agents and causal\u2011inference pipelines in Python, demonstrating applied machine\u2011learning and deep\u2011learning skills with PyTorch and TensorFlow; his work on LLM fine\u2011tuning shows familiarity with Hugging\u202fFace transformers and embeddings, while FastAPI and Git evidence adherence to modern backend practices. Although he lacks explicit experience with large\u2011language\u2011model prompt engineering, RAG, and Flask, his documented LLM fine\u2011tuning and backend development suggest a capacity to quickly acquire those missing components. Overall, his blend of theoretical grounding, hands\u2011on ML implementation, and API\u2011centric development aligns well with the internship\u2019s expectations."
+    },
+    {
+      "rank": 8,
+      "file_name": "LLM_resume.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.696,
+      "score_breakdown": {
+        "semantic_similarity": 0.797,
+        "skill_overlap": 0.467,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Embeddings",
+        "FastAPI",
+        "Git"
+      ],
+      "missing_skills": [
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush\u2019s portfolio shows a solid match to the core requirements: he has built a multilingual question\u2011answer retrieval system and an AI\u2011driven email threat\u2011screening tool using Python, machine\u2011learning libraries, deep\u2011learning concepts, embeddings, and FastAPI endpoints, and he manages the codebase on Git. While he has not yet worked directly with PyTorch, TensorFlow, Hugging\u202fFace Transformers, or LLM\u2011prompt engineering, his embedding\u2011based retrieval work demonstrates a foundational grasp of the underlying concepts that can be quickly expanded into those areas. These concrete project achievements, paired with active open\u2011source contributions, support a fit score of 0.70\u2014high on essential skills but with noted gaps in the most advanced ML frameworks."
+    },
+    {
+      "rank": 9,
+      "file_name": "Resume_3.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.671,
+      "score_breakdown": {
+        "semantic_similarity": 0.798,
+        "skill_overlap": 0.4,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Embeddings",
+        "FastAPI",
+        "Git"
+      ],
+      "missing_skills": [
+        "Machine Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "The candidate\u2019s r\u00e9sum\u00e9 demonstrates strong alignment with the core technical stack: he has used Python, deep learning, NLP, embeddings, FastAPI, and Git to build end\u2011to\u2011end ML pipelines and fine\u2011tune multilingual retrieval models. However, he does not yet have hands\u2011on experience with the foundational ML frameworks required for the role\u2014PyTorch, TensorFlow, Hugging Face Transformers\u2014as well as critical LLM\u2011related skills such as prompt engineering and retrieval\u2011augmented generation, which limits his immediate deployment readiness. With no prior professional experience and those gaps, the fit score reflects solid potential that will require additional training to fully satisfy all requirements."
+    },
+    {
+      "rank": 10,
+      "file_name": "AI_resume.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.665,
+      "score_breakdown": {
+        "semantic_similarity": 0.782,
+        "skill_overlap": 0.4,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Embeddings",
+        "FastAPI",
+        "Git"
+      ],
+      "missing_skills": [
+        "Machine Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush Tiwari\u2019s r\u00e9sum\u00e9 shows strong alignment with several core requirements: he lists Python, deep learning, natural\u2011language\u2011processing, embeddings, FastAPI, and Git, and his projects on language\u2011model fine\u2011tuning demonstrate hands\u2011on experience in these areas. However, the role also expects proficiency with PyTorch, TensorFlow, Hugging Face Transformers, and advanced techniques such as prompt engineering or RAG, none of which are explicitly mentioned in his skill set. Consequently, his fit is considered moderate\u2014he covers the foundational stack but lacks the deeper framework\u2011specific expertise that would elevate him to a higher confidence level."
+    },
+    {
+      "rank": 11,
+      "file_name": "AI_no_active.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.66,
+      "score_breakdown": {
+        "semantic_similarity": 0.825,
+        "skill_overlap": 0.333,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.95
+      },
+      "matched_skills": [
+        "Python",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Embeddings",
+        "Git"
+      ],
+      "missing_skills": [
+        "Machine Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "FastAPI",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush\u2019s work on conversational recommendation agents and causal\u2011inference pipelines shows hands\u2011on experience with end\u2011to\u2011end machine\u2011learning workflows and a solid grasp of Python, deep\u2011learning, natural\u2011language\u2011processing, and embeddings\u2014skills that align directly with the core requirements. He also routinely uses Git for version control, indicating readiness for collaborative development. However, he has not yet worked with the specific frameworks and tools the role prioritizes (PyTorch, TensorFlow, Hugging Face Transformers, LLMs, RAG, FastAPI, Flask, and software\u2011development best practices), which explains why his fit is solid but not full\u2011score."
+    },
+    {
+      "rank": 12,
+      "file_name": "SE_resume.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.644,
+      "score_breakdown": {
+        "semantic_similarity": 0.795,
+        "skill_overlap": 0.333,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Deep Learning",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "Git"
+      ],
+      "missing_skills": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Embeddings",
+        "Retrieval-Augmented Generation (RAG)",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "A score of 0.64 reflects a solid match on core technical requirements: Aarush has demonstrated Python proficiency, deep\u2011learning work using Hugging Face Transformers, and experience building web services with FastAPI and version control via Git, which directly satisfy the listed prerequisites. However, he lacks explicit exposure to foundational ML frameworks (PyTorch/TensorFlow), advanced NLP concepts (LLMs, prompt engineering, embeddings, RAG), and certain software\u2011development practices (Flask, best\u2011practice patterns), which limits his readiness for a role that heavily relies on those areas. Overall, his project record shows promising potential, but the missing skill set suggests he would need additional training to meet all aspects of the internship\u2019s expectations."
+    },
+    {
+      "rank": 13,
+      "file_name": "ResumeBLM.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.64,
+      "score_breakdown": {
+        "semantic_similarity": 0.784,
+        "skill_overlap": 0.333,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Embeddings",
+        "Git"
+      ],
+      "missing_skills": [
+        "Machine Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "FastAPI",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush has solid evidence of Python, deep\u2011learning, NLP, embeddings, and Git proficiency\u2014he built an end\u2011to\u2011end pipeline for fine\u2011tuning a language model and a document\u2011forgery detection system, both of which required constructing and version\u2011controlling complex ML workflows. However, he has not demonstrated hands\u2011on experience with the specific frameworks and tools critical for the role, such as PyTorch, TensorFlow, Hugging\u202fFace Transformers, LLMs, or prompt\u2011engineering, nor has he shown any API development with FastAPI/Flask or adherence to software\u2011development best practices. These gaps, combined with his zero\u2011year formal experience, explain a moderate fit score that reflects promising foundational skills but a need for further training on the core toolset."
+    },
+    {
+      "rank": 14,
+      "file_name": "SE_resume_v2.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.628,
+      "score_breakdown": {
+        "semantic_similarity": 0.817,
+        "skill_overlap": 0.267,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Deep Learning",
+        "Embeddings",
+        "Git"
+      ],
+      "missing_skills": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "FastAPI",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "Aarush demonstrates the key technical foundation the role requires, having used Python, deep learning libraries, and embeddings in multiple end\u2011to\u2011end projects, and he is comfortable with Git for version control. His work on causal\u2011inference pipelines and conversational recommendation agents shows that he can design and deploy AI systems that involve data preprocessing, model training, and inference\u2014skills directly applicable to an AI intern. Nevertheless, he has not yet worked with core ML algorithms, NLP frameworks, large\u2011language\u2011model toolkits, or web\u2011API stacks such as FastAPI/Flask, which are essential for the internship\u2019s focus on language\u2011model\u2011based production services, explaining the moderate fit."
+    },
+    {
+      "rank": 15,
+      "file_name": "AI_resume_v2.pdf",
+      "name": "Aarush Tiwari",
+      "final_score": 0.621,
+      "score_breakdown": {
+        "semantic_similarity": 0.799,
+        "skill_overlap": 0.267,
+        "experience_fit": 1.0,
+        "evidence_specificity": 0.9
+      },
+      "matched_skills": [
+        "Python",
+        "Deep Learning",
+        "Embeddings",
+        "Git"
+      ],
+      "missing_skills": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Large Language Models (LLMs)",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "FastAPI",
+        "Flask",
+        "Software Development Best Practices"
+      ],
+      "years_experience": 0.0,
+      "rationale": "The candidate satisfies the core technical prerequisites\u2014Python, Deep Learning, Embeddings, and Git\u2014and has already built FastAPI\u2011based conversational recommendation agents, demonstrating practical application of web\u2011service frameworks and LLMs (Llama\u00a03.7). However, the r\u00e9sum\u00e9 shows no explicit work with PyTorch, TensorFlow, or Hugging\u202fFace Transformers, and there is no evidence of experience in Prompt Engineering, Retrieval\u2011Augmented Generation, or formal software\u2011development best practices, all of which are listed as mandatory for the role. This mix of strong, relevant project experience with gaps in key ML frameworks and advanced NLP techniques explains the moderate fit score."
+    }
+  ],
+  "failed_files": []
+}

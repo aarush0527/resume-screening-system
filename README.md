@@ -245,7 +245,7 @@ An API key from any one of the supported providers:
 Clone the repository.
 
 ```bash
-git clone https://github.com/<your-username>/resume-screening-system.git
+git clone https://github.com/aarush0527/resume-screening-system.git
 ```
 
 Move into the project directory.

@@ -1,6 +1,6 @@
 """Turns raw resume/JD text into structured objects via a single LLM call each.
 
-This is the one place the LLM's judgment is trusted "as data" -- it never
+This is the one place the LLM's judgment is trusted "as data" - it never
 decides the fit score (see scorer.py / ranker.py for why that's kept
 separate and deterministic).
 """

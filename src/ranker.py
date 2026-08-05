@@ -67,5 +67,4 @@ def _generate_rationale(
         return llm.complete(RATIONALE_SYSTEM_PROMPT, prompt).strip()
     except Exception as e:
         # A failed rationale call shouldn't take down the whole ranked
-        # output -- the score itself is still valid and useful without it.
         return f"[rationale unavailable: {e}]"

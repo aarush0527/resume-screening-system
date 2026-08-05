@@ -1,8 +1,5 @@
 """Data models shared across the pipeline.
 
-CandidateProfile.scoring_text() deliberately excludes name/contact info --
-see README "Design decisions" for why. name/contact exist only for display
-in the final ranked output.
 """
 from __future__ import annotations
 
@@ -36,13 +33,7 @@ class CandidateProfile:
     education: list[Education] = field(default_factory=list)
     roles: list[Role] = field(default_factory=list)
     summary: str = ""
-    # 0-1, how much of the candidate's skill/experience claims are backed by
-    # concrete, verifiable detail (metrics, named systems used in context)
-    # versus generic buzzword-listing. Defaults to 1.0 (no penalty) so the
-    # scorer degrades gracefully if this was never set. See scorer.py and
-    # README "Approach" -- added after an adversarial test resume that lists
-    # every required keyword with no substantiating detail scored
-    # competitively with genuinely strong candidates on skill_overlap alone.
+
     evidence_specificity: float = 1.0
 
     def scoring_text(self) -> str:
@@ -70,9 +61,9 @@ class JobRequirements:
 @dataclass
 class ScoreBreakdown:
     semantic_similarity: float
-    skill_overlap: float          # raw overlap, unadjusted -- kept for auditability
+    skill_overlap: float          
     experience_fit: float
-    evidence_specificity: float   # 0-1 dampener actually applied to skill_overlap in final_score
+    evidence_specificity: float   
 
 
 @dataclass

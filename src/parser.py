@@ -1,8 +1,5 @@
 """Extracts raw text from resume files. Supports PDF, DOCX, and TXT.
 
-Scanned/image-only PDFs are a known, deliberate non-goal for this build --
-see README "Known limitations". They raise a clear ParseError instead of
-silently returning empty text.
 """
 from __future__ import annotations
 
@@ -54,7 +51,6 @@ def _parse_docx(path: Path) -> str:
         raise ParseError(f"Could not open DOCX {path.name}: {e}") from e
 
     paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
-    # Some resumes lay out contact info / skills in tables -- grab those too.
     for table in doc.tables:
         for row in table.rows:
             for cell in row.cells:

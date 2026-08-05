@@ -1,13 +1,5 @@
 """Deterministic hybrid scoring: semantic similarity + skill overlap + experience fit.
 
-Design decision (see README "Approach" section for the full writeup): the
-LLM is never asked to output the fit score itself. Asking an LLM for "a
-number 1-10" is the common shallow version of this agent -- it's
-non-deterministic across runs, expensive to batch, and hard to justify to
-a candidate or hiring manager who asks "why did I score a 6?". Here, the
-score is three auditable, recomputable numbers combined with fixed
-weights; the LLM's only job (in ranker.py) is to explain a score that has
-already been computed, not to invent one.
 """
 from __future__ import annotations
 
@@ -17,16 +9,14 @@ import numpy as np
 
 from .models import CandidateProfile, JobRequirements, ScoreBreakdown
 
-_embedding_model = None  # lazy-loaded + cached so we only pay the load cost once per run
+_embedding_model = None  
 
 
 def _get_embedding_model():
     global _embedding_model
     if _embedding_model is None:
         from sentence_transformers import SentenceTransformer
-        # all-MiniLM-L6-v2: small (~80MB), fast, local, free -- no per-call
-        # API cost or rate limit at batch scale. Swap to all-mpnet-base-v2
-        # if quality matters more than speed (see README tradeoffs).
+       
         _embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
     return _embedding_model
 
@@ -47,11 +37,6 @@ def semantic_similarity(candidate_text: str, jd_text: str) -> float:
 def skill_overlap(candidate_skills: list[str], required_skills: list[str]) -> tuple[float, list[str], list[str]]:
     """Case-insensitive, substring-tolerant overlap between candidate skills
     and JD-required skills. Returns (score, matched_skills, missing_skills).
-
-    V1 uses simple normalized string matching rather than fuzzy/embedding-
-    based skill matching -- it ships faster and is easy to audit, at the
-    cost of missing some synonyms (e.g. "JS" vs "JavaScript"). See README
-    tradeoffs for the V2 upgrade path.
     """
     if not required_skills:
         return 1.0, [], []
@@ -66,7 +51,7 @@ def skill_overlap(candidate_skills: list[str], required_skills: list[str]) -> tu
 
 def experience_fit(candidate_years: float, required_years: float) -> float:
     """1.0 if the candidate meets or exceeds the requirement (no bonus for
-    over-qualification -- that's a separate judgment call for a human, not
+    over-qualification ; that's a separate judgment call for a human, not
     something this score should silently reward or punish). Linear falloff
     below the requirement."""
     if required_years <= 0:
@@ -88,20 +73,7 @@ def score_candidate(
     jd: JobRequirements,
     weights: ScoreWeights = ScoreWeights(),
 ) -> tuple[float, ScoreBreakdown, list[str], list[str]]:
-    """Returns (final_score, breakdown, matched_skills, missing_skills).
-
-    candidate.scoring_text() intentionally excludes name/contact info --
-    see models.py. Only role/skill/education content is embedded or scored.
-
-    evidence_specificity dampens skill_overlap before it's weighted in.
-    This exists because of an adversarial test case: a resume that lists
-    every required keyword with only generic, unsubstantiated descriptions
-    ("assisted with various projects involving X, Y, Z") scored
-    competitively with genuinely strong candidates on skill_overlap alone,
-    since that component only checks whether a skill is *listed*, not
-    whether it's *demonstrated*. The floor is 0.5x (not 0x) deliberately --
-    a concise resume shouldn't be crushed just for being concise, only a
-    demonstrably vague one.
+    """Returns (final_score, breakdown, matched_skills, missing_skills)
     """
     sem = semantic_similarity(candidate.scoring_text(), jd.raw_text)
     skill_score, matched, missing = skill_overlap(candidate.skills, jd.required_skills)

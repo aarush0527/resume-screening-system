@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""Resume Screening Agent -- CLI entry point.
+
+"""Resume Screening Agent: CLI entry point.
 
 Usage:
     python main.py --jd data/job_description.txt --resumes data/resumes/

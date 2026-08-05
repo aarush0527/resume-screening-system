@@ -1,0 +1,29 @@
+AI/ML Intern
+
+We are looking for an AI/ML Intern to join our AI engineering team.
+
+Responsibilities:
+- Develop and improve machine learning and generative AI applications
+- Build and optimize Retrieval-Augmented Generation (RAG) pipelines
+- Fine-tune, evaluate, and deploy large language models (LLMs)
+- Design and implement REST APIs using FastAPI or similar frameworks
+- Work with vector databases, embeddings, and semantic search systems
+- Collaborate with engineering teams to integrate AI solutions into production
+- Write clean, tested, maintainable code and participate in code reviews
+- Research and experiment with the latest AI models, frameworks, and tools
+
+Requirements:
+- Strong proficiency in Python
+- Understanding of machine learning, deep learning, and NLP fundamentals
+- Experience with PyTorch, TensorFlow, or Hugging Face Transformers
+- Familiarity with LLMs, prompt engineering, embeddings, or RAG systems
+- Experience building APIs using FastAPI or Flask
+- Knowledge of Git and software development best practices
+- Pursuing a Bachelor's or Master's degree in Computer Science, AI, Data Science, or a related field
+
+Nice to have:
+- Experience with LangChain, LlamaIndex, or similar AI frameworks
+- Familiarity with vector databases such as FAISS, Chroma, Pinecone, or Qdrant
+- Experience deploying applications using Docker and cloud platforms (AWS, GCP, or Azure)
+- Knowledge of SQL, NoSQL databases, and data preprocessing
+- Contributions to open-source projects, Kaggle competitions, or personal AI projects
